@@ -4,7 +4,8 @@ Steps:
 1. make
 
 2. run hmm_supported. 
-If hmm_supported is successful, then your device is support,the nvidia-uvm module is loaded, and hmm is enabled.
+If hmm_supported is successful, then your device is support,the nvidia-uvm module is loaded, and hmm is enabled. Otherwise 
+check error code printed against common/nvstatuscodes.h (assuming these do not change between version of uvm)
 
 3. run hmmtest
 if hmm test is unsuccesful it will print a generic error message. To find out the specific error message, you have to check
