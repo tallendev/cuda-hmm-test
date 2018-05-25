@@ -14,3 +14,6 @@ if hmm test is unsuccesful it will print a generic error message. To find out th
     the driver is receiving the hardware interrupt issued by the device but does not "know" how to handle it. If run 
     w/ `cuda-memcheck`, we get error message 43 (GPU stopped processing), which seems like a generic error. This indicates
     that cuda-memcheck either takes a different control path or clobbers the hardware error.
+
+
+pfault is a similar test for evaluating number of cpu/gpu page faults. useful for nvlink vs pcie.
