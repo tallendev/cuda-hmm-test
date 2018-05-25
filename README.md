@@ -17,3 +17,4 @@ if hmm test is unsuccesful it will print a generic error message. To find out th
 
 
 pfault is a similar test for evaluating number of cpu/gpu page faults. useful for nvlink vs pcie.
+build and run `nvprof ./pfault` and check um results
