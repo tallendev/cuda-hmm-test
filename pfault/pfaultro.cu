@@ -23,8 +23,8 @@ __global__ void
 compute_this(int *pDataFromCpu)
 {
     printf ("start\n");
-    //printf ("in: %d\n", *pDataFromCpu);
-    *pDataFromCpu += 7;
+    printf ("in: %d\n", *pDataFromCpu);
+    //*pDataFromCpu += 7;
     printf ("yay\n");
 }
 
